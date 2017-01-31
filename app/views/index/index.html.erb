@@ -1,0 +1,24 @@
+<p>calcular precio de la casa</p>
+<p>metros</p>
+<p>habitaciones</p>
+
+
+<p>ingresar datos para alimentar machine learning</p>
+<p>precio</p>
+<p>metros</p>
+<p>habitaciones</p>
+
+<%= form_for @casa do |f| %>
+	<%= f.label :precio %>
+	<%= f.text_field :precio %>
+	<%= f.label :metros %>
+	<%= f.text_field :metros %>
+	<%= f.label :habitacion %>
+	<%= f.text_field :habitacion %>
+	<%= f.submit %>
+<% end %>
+
+<% @casas.each do |casa| %>
+	<%= casa.id %>
+	<%= casa.precio %>
+<% end %>

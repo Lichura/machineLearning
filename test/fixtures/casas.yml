@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  precio: 1
+  metros: 1
+  habitacion: 1
+
+two:
+  precio: 1
+  metros: 1
+  habitacion: 1
